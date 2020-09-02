@@ -9,7 +9,9 @@ The I tried adding anti-aliasing:
 
 ![Example with anti-aliasing](./img_aa.png)
 
-The difference can be seen either at lower resolutions or when zooming in.
+The difference can be seen either at lower resolutions or when zooming in:
+![No-AA](./diff1.png)
+![AA](./diff2.png)
 
 # Building
 ```sh
