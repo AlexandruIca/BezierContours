@@ -13,7 +13,19 @@ The difference can be seen either at lower resolutions or when zooming in:
 ![No-AA](./diff1.png)
 ![AA](./diff2.png)
 
+In the [sdl](./sdl) folder there is a version which uses the GPU to render the curves, with similar anti-aliasing done:
+![GPU](./sdl/GPU.gif)
+
 # Building
 ```sh
 ${CXX} main.cpp stb.cpp
+```
+
+For the GPU version:
+```sh
+mkdir build && cd build
+conan install ..
+cmake ..
+cmake --build .
+./Bezier
 ```

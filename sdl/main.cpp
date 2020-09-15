@@ -80,8 +80,8 @@ auto set_mat4(unsigned int program, std::string const& var, glm::mat4 const& mat
     glUniformMatrix4fv(glGetUniformLocation(program, var.c_str()), 1, GL_FALSE, glm::value_ptr(mat));
 }
 
-int width = 600;
-int height = 600;
+int width = 800;
+int height = 800;
 
 glm::mat4 rotation{ 1.0F };
 glm::mat4 projection{ 1.0F };
