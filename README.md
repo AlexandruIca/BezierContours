@@ -5,7 +5,7 @@ At first I implemented a version where there was no anti-aliasing done, and the 
 
 ![Example](./img.png)
 
-The I tried adding anti-aliasing:
+Then I tried adding anti-aliasing:
 
 ![Example with anti-aliasing](./img_aa.png)
 
