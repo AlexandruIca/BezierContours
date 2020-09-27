@@ -16,6 +16,10 @@ The difference can be seen either at lower resolutions or when zooming in:
 In the [sdl](./sdl) folder there is a version which uses the GPU to render the curves, with similar anti-aliasing done:
 ![GPU](./sdl/GPU.gif)
 
+In the [glyph](./glyph) folder I implemented actual glyph rendering using Freetype to read `.ttf` files:
+![Roboto](./glyph_at.png)
+![Wildwood](./glyph_wildwood.png)
+
 # Building
 ```sh
 ${CXX} main.cpp stb.cpp
